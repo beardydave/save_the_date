@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Add to Calendar Script -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/add-to-calendar-button/assets/css/atcb.min.css"
+    />
+
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -25,11 +31,16 @@
           Hawkstone Park, Shrewsbury
         </h2>
       </div>
-      <a href="#" class="cal_save">Add to Calendar</a>
+      <!-- <a href="#" class="cal_save">Add to Calendar</a> -->
+      <div class="atcb" style="display: none">
+        { "name":"Dave & Flicks Wedding", "startDate":"2023-05-20", "options":[ "Apple","Google" ] }
+      </div>
       <div class="overlay"></div>
     </header>
     <!-- <section class="container">
       <h2 class="location_title">Please Join us at Hawkstone Park, Shrewsbury</h2>
     </section> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button" async defer></script>
   </body>
 </html>
