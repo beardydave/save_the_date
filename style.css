@@ -24,7 +24,8 @@ header {
   height: 100vh;
   width: 100vw;
   border: 1rem solid white;
-  background: url("./images/hawkstone_cave.jpeg") rgba(255, 255, 255, 0.6);
+  background: url("https://user-images.githubusercontent.com/62890800/182025727-a5fe9a62-a857-4b34-aadb-387116f49cbc.jpeg")
+    rgba(255, 255, 255, 0.6);
   background-position: center;
   background-size: cover;
   background-blend-mode: lighten;
