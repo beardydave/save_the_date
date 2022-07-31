@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem 8rem;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  border: 1rem solid white;
+  background: url("/images/hawkstone_cave.jpeg") rgba(255, 255, 255, 0.6);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 3.6rem;
+  font-weight: 300;
+}
+
+.cal_save {
+  background-color: crimson;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.cal_save:hover {
+  transform: scale(1.05);
+}
+
+.location_title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  section {
+    padding: 2rem 3rem;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+  .location_title {
+    font-size: 1.2rem;
+  }
+}
